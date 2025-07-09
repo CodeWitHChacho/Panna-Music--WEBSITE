@@ -1,0 +1,2 @@
+# PMC WEBSITE
+Final responsive music store website built with HTML, CSS, JavaScript and Bootstrap Framework. Designed for Panna Music to showcase products and offer a seamless user experience.  🔧 Built With: HTML5 CSS3 (with custom styling) JavaScript (Vanilla) [Bootstrap 5] (for layout & components) Responsive Design Techniques 🚀 Features Bootstrap-powered responsive grid Navbar and layout enhanced with Bootstrap classes Product cards with hover effects Custom sections styled beyond Bootstrap defaults Smooth scrolling and lightweight JavaScript interactions

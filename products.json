@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Galaxy S24 Ultra",
+    "category": "Phones and Accessories",
+    "price": 1299.99,
+    "description": "The most advanced Galaxy smartphone with a pro-grade camera and powerful processor.",
+    "image": "bobby-raj-sirimani-lkhz29AXTTc-unsplash.jpg",
+    "availability": "In Stock"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy Book4 Pro",
+    "category": "Phones and Accessories",
+    "price": 1449.99,
+    "description": "A lightweight and powerful laptop for productivity on the go.",
+    "image": "amjith-s-QgBMAaZka2o-unsplash.jpg",
+    "availability": "In Stock"
+  },
+  {
+    "id": 1,
+    "name": "Galaxy S24 Ultra",
+    "category": "Phones and Accessories",
+    "price": 1299.99,
+    "description": "The most advanced Galaxy smartphone with a pro-grade camera and powerful processor.",
+    "image": "ainur-iman-tWNL1C1h5so-unsplash.jpg",
+    "availability": "In Stock"
+  },
+  {
+    "id": 3,
+    "name": "Galaxy Buds3",
+    "category": "Phones and Accessories",
+    "price": 199.99,
+    "description": "Immersive sound and a comfortable fit for all-day listening.",
+    "image": "anh-nhat-uCqMa_s-JDg-unsplash.jpg",
+    "availability": "In Stock"
+  },
+  {
+    "id": 4,
+    "name": "Galaxy Z Fold5",
+    "category": "SMART TV",
+    "price": 1799.99,
+    "description": "A foldable phone that offers a tablet-sized screen in your pocket.",
+    "image": "babak-habibi-34uOaL1He4w-unsplash.jpg",
+    "availability": "Out of Stock"
+  },
+  {
+    "id": 5,
+    "name": "Galaxy Tab S9",
+    "category": "SMART TV",
+    "price": 799.99,
+    "description": "A versatile tablet for work and play, with a stunning display.",
+    "image": "blaz-erzetic-g5f0BJq-FRs-unsplash.jpg",
+    "availability": "In Stock"
+  },
+  {
+    "id": 6,
+    "name": "SmartTag2",
+    "category": "SMART TV",
+    "price": 29.99,
+    "description": "Keep track of your belongings with this smart tracker.",
+    "image": "bobby-raj-sirimani-lkhz29AXTTc-unsplash.jpg",
+    "availability": "In Stock"
+  },
+  {
+    "id": 7,
+    "name": "Odyssey OLED G9",
+    "category": "Samsung Appliances",
+    "price": 2199.99,
+    "description": "The ultimate gaming monitor with a curved OLED display.",
+    "image": "fabian-irsara-67l-QujB14w-unsplash.jpg",
+    "availability": "In Stock"
+  },
+  
+  {
+    "id": 8,
+    "name": "Galaxy Watch6",
+    "category": "Samsung Appliances",
+    "price": 399.99,
+    "description": "A stylish smartwatch with advanced health and fitness tracking.",
+    "image": "ian-powell-lBafubVUkDo-unsplash.jpg",
+    "availability": "In Stock"
+  },
+  {
+    "id": 9,
+    "name": "Galaxy A55",
+    "category": "Samsung Appliances",
+    "price": 449.99,
+    "description": "An affordable smartphone with a great camera and long-lasting battery.",
+    "image": "johannes-plenio-FZpCcPss9to-unsplash.jpg",
+    "availability": "In Stock"
+  }
+  
+]

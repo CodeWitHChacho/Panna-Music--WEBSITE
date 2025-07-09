@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Panna Music - Order Confirmation</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/samsung (1).png" rel="icon">
+  <link href="assets/img/samsung (1).png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Abel:wght@400&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link href="assets/additional/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/additional/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="confirmation-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename"> Panna Music centre</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="samsung.html">Samsung Shop</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+        <a href="#" id="cart-icon-btn" class="cart-icon">
+            <i class="bi bi-cart"></i>
+            <span id="cart-count" class="cart-count">0</span>
+        </a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Order Confirmation</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="samsung.html">Samsung Shop</a></li>
+            <li class="current">Confirmation</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Confirmation Section -->
+    <section id="confirmation" class="confirmation section">
+      <div class="container" data-aos="fade-up">
+        <div id="order-summary">
+          <!-- Order summary will be loaded here by shop.js -->
+        </div>
+        <a href="samsung.html" class="btn btn-primary mt-3">Continue Shopping</a>
+      </div>
+    </section><!-- End Confirmation Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="home.html" class="logo">
+            <img src="cropped-pannaLOGO-white-1-270x270.png" alt="PANNA Logo">
+            PANNA
+          </a>
+          <p class="tagline">Your trusted partner in cutting-edge technology and exceptional service.</p>
+        </div>
+        <div class="footer-links-group">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Products</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@pannamusic.co.ke">info@pannamusic.co.ke</a></li>
+            <li><a href="tel:+254712133135">+254 712 133 135</a></li>
+            <li><span>Kenyatta Street, Eldoret</span></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4 class="social-icons-title">Visit Us</h4>
+          <div class="social-icons">
+            <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© Copyright <strong><span>PANNA</span></strong>. All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="cart-modal">
+    <div class="cart-modal-header">
+      <h3>Your Cart</h3>
+      <button id="close-cart-btn" class="close-cart-btn">&times;</button>
+    </div>
+    <div class="cart-modal-body">
+      <ul id="cart-items">
+        <!-- Cart items will be loaded here -->
+      </ul>
+    </div>
+    <div class="cart-modal-footer">
+      <div id="cart-total"></div>
+      <a href="checkout.html" class="btn btn-primary mt-3">Proceed to Checkout</a>
+    </div>
+  </div>
+
+  <!-- JS Files -->
+  <script src="assets/additional/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="shop.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+.image-scroller {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  cursor: grab;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.scroll-track {
+  display: flex;
+  gap: 10px;
+  transition: transform 0.3s ease-out;
+}
+
+.scroll-track img {
+  width: 25%;
+  height: 210px;
+  object-fit: cover;
+  flex-shrink: 0;
+  user-select: none;
+  pointer-events: none;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+ features
+<div class="features-card-wrapper" data-aos="fade-left" data-aos-delay="300">
+            <div class="features-row">
+              <div class="feature-card feature-primary" data-aos="zoom-in" data-aos-delay="200">
+                <div class="feature-icon">
+                  <i class="bi bi-shield-lock"></i>
+                </div>
+                <div class="feature-details">
+                  <h3> Latest Gadgets and Appliances</h3>
+                  <p> Sale of genuine electronics from smartphones, Television sets, Appliances from premium quality brands</p>
+                  <div class="feature-status active">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">Deployed</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="feature-icon">
+                  <i class="bi bi-cloud-arrow-up"></i>
+                </div>
+                <div class="feature-details">
+                  <h3>Certified Repair Solutions </h3>
+                  <p> We offer a wide range of certified repair services for various 
+                    electronic devices. Samsung & Sony certified service center: in-store, 
+                    pickup/drop-off, and in-home repairs with only genuine OEM parts</p>
+                  <div class="feature-status pending">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">In Development</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="features-row">
+              <div class="feature-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="feature-icon">
+                  <i class="bi bi-database-check"></i>
+                </div>
+                <div class="feature-details">
+                  <h3> Mobile and Gadget Accesssories</h3>
+                  <p>Explore a wide range of high-quality tech essentials—from the latest mobile phones by leading brands 
+                    to premium accessories like chargers, earphones, cables, power banks, and protective gear.</p>
+                  <div class="feature-status active">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">Operational</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="feature-icon">
+                  <i class="bi bi-cpu"></i>
+                </div>
+                <div class="feature-details">
+                  <h3>Smart Devices and Home Tech</h3>
+                  <p> Upgrade your living space with cutting-edge smart technology and home electronics. Panna Music Centre offers a curated selection of smart TVs, 
+                    home entertainment systems, smartwatches, kitchen appliances, and connected home devices</p>
+                  <div class="feature-status scheduled">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">Scheduled</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

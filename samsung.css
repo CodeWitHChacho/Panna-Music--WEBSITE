@@ -1,0 +1,25 @@
+.page-title {
+ background: url(evgeny-opanasenko-yICUnj32xXg-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.samsung-page-title .heading .col-lg-8,
+.samsung-page-title .heading .col-lg-8 h1,
+.samsung-page-title .heading .col-lg-8 p {
+    background: transparent !important;
+    color: #ffffff !important;
+}
+
+.samsung-page-title .btn-primary {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #ffffff !important;
+}
+
+.samsung-page-title .btn-primary:hover {
+    background-color: #f0f0f0 !important;
+    border-color: #f0f0f0 !important;
+}
+
+
